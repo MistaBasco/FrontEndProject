@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body, h1, h2, h3, p, a, ul, li {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+html{
+    background-color: rgba(112, 128, 144, 0.55);
+}
+html, body{
+    min-height: 100%;
+    margin: 0;
+}
+#mbody{
+
+    text-align: center;
+    background-color: chocolate;
+    background: linear-gradient(rgba(210, 105, 30, 0.5), rgba(157, 59, 18, 0.59));
+    width: 75%;
+    min-height:100%;
+    margin: 0 12.5% 0 12.5%;
+
+}
+h1.title {
+
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2%;
+    background-color: rgba(240, 124, 0, 0.16);
+}
+
+h1.fill-screen{
+
+    margin: 150px 12.5% 150px 12.5%;
+    width: 75%;
+}
+
+h1.pics{
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+#navbar{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2px 0 2px 0;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar li a{
+
+    text-decoration: none;
+    background: linear-gradient(rgba(233, 155, 14, 0.45), rgba(203, 110, 18, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    border: solid;
+    padding-right: 2px;
+    border-width: 0 2px 0 0;
+    border-right:2px solid rgba(255, 255, 255, 0.1);
+}
+
+#navbar li:last-child a{
+    border: none;
+}
+
+#navbar li a:hover{
+
+    opacity: 0.95;
+}
+
+#navbar li a.active{
+
+    background-color: rgba(255, 0, 255, 1);
+}
+
+#track{
+    width : 65%;
+    margin: 0 30% 0 30%;
+}
+div.trackWrapper {
+    margin: 10px 0 10px 0;
+}
+div.newsletter {
+    width : 65%;
+    height : 110px;
+    margin: 15px 17.5% 15px 17.5%;
+    background-color: #b2622f;
+    opacity : 0.7;
+    border-radius: 5px;
+    transition: opacity 0.2s;
+}
+
+div.newsletter:hover{
+    opacity: 0.95;
+}
+div.newsletter form.subForm{
+   padding: 30px 0 0 0;
+
+}
+
+div.newsletter form.subForm label.text{
+    margin: 0 0 5px 0;
+}
+
+div.trackWrapper iframe{
+
+    width : 65%;
+    height : 110px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+div.trackWrapper iframe:hover{
+
+    opacity: 0.95;
+}
+
+div.youtubeWrapper iframe{
+    margin-top: 10px;
+    width : 65%;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+div.youtubeWrapper iframe:hover{
+    opacity: 0.95;
+}
+
+ul.hidden{
+    display : none;
+    list-style-type: none;
+    background: linear-gradient(rgba(233, 155, 14, 0.45), rgba(203, 110, 18, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#navbar{
+    margin-bottom: 20px;
+}
+
+#navbar li:hover > ul.hidden{
+    display: block;
+    width: 50px;
+    position: relative;
+    left: 770px;
+
+}
+
+#navbar li ul.hidden:hover{
+    opacity: 0.95;
+}
+
+
+.fa-twitter{
+    color: #00c8ee;
+}
+.fa-facebook{
+    color: #4466ee;
+}
+
+.fa-soundcloud{
+    color: #f07c00;
+}
+div.news{
+
+    width: 65%;
+    margin: 10px 17.5% 10px 17.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    height: 100px;
+    text-align: left;
+    padding-left: 10px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+div.news:hover{
+    opacity: 0.95;
+}
+div.news:first-child{
+    margin-top: 50px;
+}
+div.news:last-child{
+    margin-bottom: 25px;
+}
+div.news:hover > h2.news-header{
+
+    color: #778899;
+}
+
+p.news-body{
+
+    color: rgba(255, 248, 220, 0.65);
+}
+
+p.date{
+    display: inline-block;
+    text-align: right;
+    opacity: 0.5;
+    color: #e9b72a;;
+}
+
+.row {
+    padding: 5px;
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
+}
+
+div.col-md-4.col-sm-6.col-xs-12.item_box{
+
+    width: 280px;
+    min-height: 340px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+.left-align{
+    text-align: left;
+    display: inline-block;
+}
+
+#submit_btn{
+
+
+}
