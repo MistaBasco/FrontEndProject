@@ -147,13 +147,13 @@ div.youtubeWrapper iframe{
 div.youtubeWrapper iframe:hover{
     opacity: 0.95;
 }
-
+/*Follow drop-down broke again, sort this out*/
 ul.hidden{
     display : none;
     list-style-type: none;
-    background: linear-gradient(rgba(233, 155, 14, 0.45), rgba(203, 110, 18, 0.9));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /*background: linear-gradient(rgba(233, 155, 14, 0.45), rgba(203, 110, 18, 0.9));*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
 }
 
 #navbar{
