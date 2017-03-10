@@ -20,7 +20,7 @@ html{
     background-color: rgba(112, 128, 144, 0.55);
 }
 html, body{
-    min-height: 100%;
+    min-height: 650px;
     margin: 0;
 }
 #mbody{
@@ -29,7 +29,7 @@ html, body{
     background-color: chocolate;
     background: linear-gradient(rgba(210, 105, 30, 0.5), rgba(157, 59, 18, 0.59));
     width: 75%;
-    min-height:100%;
+    min-height: 650px;
     margin: 0 12.5% 0 12.5%;
 
 }
